@@ -1,0 +1,52 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px var(--horizontal-space);
+    align-items: center;
+    margin: 20px 0px 40px 0px;
+}
+
+.screen-header__title{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.screen-header__icons{
+    position: relative;
+}
+
+.screen-header__icons span{
+    margin-left: 25px;
+}
+
+.screen-header__new-feature{
+    background-color: red;
+    color: red;
+    width: 8px;
+    height:8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 70px;
+    bottom: 15px;
+}
+
+.screen-header__new-feature2{
+    background-color: red;
+    color: red;
+    width: 8px;
+    height:8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 120px;
+    bottom: 15px;
+}
+
+.fa-circle-exclamation{
+    color:red;
+}
